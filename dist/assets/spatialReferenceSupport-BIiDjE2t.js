@@ -1,0 +1,1 @@
+import{f$ as o,g2 as S}from"./index-BfC8i6jT.js";function l(i,G){return i!=null&&(G==null||(G===o.Local?!i.isGeographic||i.isWGS84||i.wkid===S.CGCS2000:i.isWebMercator||i.isWGS84||i.wkid===S.CGCS2000||i.wkid===S.GCSMARS2000||i.wkid===S.GCSMARS2000_SPHERE||i.wkid===S.GCSMOON2000))}export{l as r};

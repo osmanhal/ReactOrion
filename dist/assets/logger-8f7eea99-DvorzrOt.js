@@ -1,0 +1,5 @@
+import{p as u}from"./index-BfC8i6jT.js";/*!
+ * All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+ * See https://github.com/Esri/calcite-design-system/blob/dev/LICENSE.md for details.
+ * v2.12.1
+ */const s=new Set,d={trace:0,debug:1,info:2,warn:4,error:8,off:10};function g(e){return d[e]>=d[u]}function r(e,...n){if(!g(e))return;console[e].call(this,"%ccalcite","background: #007AC2; color: #fff; border-radius: 4px; padding: 2px 4px;",...n)}let a;const m={debug:e=>r("debug",e),info:e=>r("info",e),warn:e=>r("warn",e),error:e=>r("error",e),trace:e=>r("trace",e),deprecated:$};function $(e,{component:n,name:t,suggested:o,removalVersion:i}){const c=`${e}:${e==="component"?"":n}${t}`;if(s.has(c))return;s.add(c);const l=Array.isArray(o);l&&!a&&(a=new Intl.ListFormat("en",{style:"long",type:"disjunction"}));const f=`[${t}] ${e} is deprecated and will be removed in ${i==="future"?"a future version":`v${i}`}.${o?` Use ${l?a.format(o.map(p=>`"${p}"`)):`"${o}"`} instead.`:""}`;r("warn",f)}export{m as l};

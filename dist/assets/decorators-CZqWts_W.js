@@ -1,0 +1,1 @@
+import{y as r}from"./index-BfC8i6jT.js";import{gd as p,hv as f,ei as u,hx as c,h8 as h,aN as l,hw as g,z as m,gg as d}from"./index-BfC8i6jT.js";function t(a,s){const e=s?{...s,source:a}:a;return r({aliasOf:e})}export{t as aliasOf,p as cast,f as ensureRange,u as enumeration,c as finalizeClass,r as property,h as propertyJSONMeta,l as reader,g as shared,m as subclass,d as writer};
